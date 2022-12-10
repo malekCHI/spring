@@ -1,0 +1,74 @@
+1)jakartaEE : est une spécification pour la plate-forme Java d'Oracle (anciennement Java ) 
+2)platform : ensemble de bibiliotheque + executable
+ (.exe  nel9ahom f bin w .jar f lib eli houma java archive )
+ && framewwork : ensemble de bibiliotheque seule ;
+3) structure de projet 
+maven : gestionnaire de project yaamil construction de projet 
+group =convention dans package 
+artifacte :le nom de livrable 
+maven offre 3 répertoire : repo central/ local(fih les dépendances télécharger )/privé
+remarque : projet starter qui téelecharge les dépendances sans l'intervention de dévelopeur
+cycle de spring :
+mvn compile : Créer les .class et dossier target 
+
+• mvn test : Jouer les tests unitaires
+
+• mvn package : Création du livrable dans target.
+
+• mvn install : Copie du livrable dans le Repository local :
+~\.m2\repository\GroupId\artifactID\version
+
+• mvn deploy : Copie du livrable sur le repository distant
+
+• mvn clean : Supprime le contenu du dossier target.
+
+4) maven clean install : supprimer dossier target + installer les dependences elli mawjoudin f pom.xml
+5) 2 
+6) couplage faible : diminuer les relations de depancances ;
+7) bean :composant java ;
+8)@controller && @ RestController
+9) @autowired
+10) scope : Les beans ajoutés dans un contexte d’application ont une portée (scope) 
+singleton sinon prototype 
+11) Spring Boot offre trois avantages incontournables :
+
+⮚ La gestion des configurations
+⮚ Le serveur est embarqué
+⮚ La gestion des dépendances
+
+
+ 
+12) JDBC native  : java data base connectivity 
+jdbc driver :pilote permet la connectivité
+13) inconvénients de JDBC : mélanges de code technique et code metier || code repetitif 
+14) ORM : object relationnel mapping
+15) utilité de Spring data : manipulation de données 
+jpa une spécification pour les données non structuré
+
+
+16) 4 tables 
+17)     2.1 : serializable .objet  ywali .byte 
+sérialisation est le processus de convension d'un objet en un flow d'octet 
+	2.2 : @ID
+	2.3 : OneToMany mapped by restaurant
+	2.4 : bidirectionnel 
+	2.5 :
+ 	2.6 : enumtype.STRING
+	2.7 : ManyToOne
+
+
+Test2 :
+1) Spring : framework java 
+2)  
+  
+3) un serveur Web est un sous-ensemble commun d'un serveur d'applications
+  serveur d'app : trés lourd et gourmand de ressource  fih ejb w serveur web 
+ || serveur web : que le protocole http et aussi c est un serveur legér
+..
+8) patron de conception : solution optimale pour resoudre un prob .
+9) injection de dependences : implémentation d un patron de conception ioc 
+ hibernate : ORM de java implementation de données de jpa 
+
+
+
+   
